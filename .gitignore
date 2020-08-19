@@ -1,0 +1,32 @@
+############################
+# Ansible
+############################
+
+# Temp files
+ansible/.ansible/tmp/*
+!ansible/.ansible/tmp/.gitkeep
+
+# Vault Password
+ansible/vault_password
+
+# Logs
+ansible/ansible.log
+
+# Host files (Remove if you you used repo as a template)
+ansible/inventories/production/hosts
+ansible/inventories/production/hosts.yml
+ansible/inventories/staging/hosts
+ansible/inventories/staging/hosts.yml
+
+
+############################
+# Terraform
+############################
+
+############################
+# Bash
+############################
+
+############################
+# Python
+############################
